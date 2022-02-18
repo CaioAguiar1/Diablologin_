@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-image: url('../IMG/diablo-4-inarius-lilith-uhdpaper.com-8K-7.281.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+section 
+{
+    position: relative;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section .container 
+{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba( 0,0,0,0.1);
+    overflow: hidden;
+}
+
+section .container .user 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+section .container .user .imgbx 
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+
+
+section .container .user .imgbx img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .container .user .formbx 
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+section .container .user .formbx form h2 
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align:center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+section .container .user .formbx form input 
+{
+ position: relative;
+ width: 100%;
+ padding: 10px;
+ background: #f5f5f5;
+ color: #333;
+ border: none;
+ outline: none;
+ box-shadow: none;
+ margin: 8px 0 0;
+ font-size: 14px;
+ letter-spacing: 1px;
+ font-weight: 300;
+}
+
+section .container .user .formbx form input[type="submit"] 
+{
+
+    max-width: 100px;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+section .container .user .formbx form input[type="submit"]:hover
+{
+    background: #504e4e;
+}
+
+section .container .user .formbx form .singup 
+{
+     position: relative;
+     margin-top: 20px;
+     font-size: 12px;
+     letter-spacing: 1px;
+     color: #555;
+     text-transform: uppercase;
+     font-weight: 300;
+}
+
+a 
+{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+a:hover 
+{
+   color:#6d6a6a
+}
+
+.logo 
+{
+    position: relative;
+    max-width: 80px;
+    
+    
+}
+
+.logo img 
+{
+    transform: translateX(-10px);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+logo img:hover{
+    transform: translateX(-10px) translateY(-6px);
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+
